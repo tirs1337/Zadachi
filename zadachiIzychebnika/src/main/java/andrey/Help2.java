@@ -54,6 +54,9 @@ public class Help2 {
                 System.out.println("do {");
                 System.out.println("  оператор;");
                 System.out.println("} while (условие)");
+                System.out.println("} while (условие)");
+                System.out.println("} while (условие)");
+                System.out.println("} while (условие)");
                 break;
         }
     }

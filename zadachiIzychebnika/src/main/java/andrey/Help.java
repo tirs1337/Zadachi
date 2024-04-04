@@ -22,7 +22,7 @@ public class Help {
         switch (choice) {
             case '1' :
                 System.out.println("Оператор if:\n");
-                System.out.println("if(условие) оператор;");
+                System.out.println("if(условие) Оператор;");
                 System.out.println("else оператор;");
                 break;
             case '2' :
