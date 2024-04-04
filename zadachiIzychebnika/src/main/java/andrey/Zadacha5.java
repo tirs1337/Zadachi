@@ -4,7 +4,7 @@ package andrey.glava2;
  * Тут надо было понять что не так с фрагментом кода. 5 номер, стр.93.
  */
 
-public class zadacha5 {
+public class Zadacha5 {
     /**
      * метод main.
      * @param args - аргумент метода main.
