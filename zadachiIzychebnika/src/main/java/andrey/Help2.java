@@ -57,7 +57,6 @@ public class Help2 {
                 System.out.println("} while (условие)");
                 System.out.println("} while (условие)");
                 System.out.println("} while (условие)");
-                System.out.println("} while (условие)");
                 break;
         }
     }
