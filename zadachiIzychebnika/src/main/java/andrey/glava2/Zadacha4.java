@@ -3,7 +3,7 @@ package andrey.glava2;
 /**
  * Задача 4, стр. 93.
  */
-public class zadacha4 {
+public class Zadacha4 {
     /**
      * Метод main.
      * @param args - аргумент метода main.
