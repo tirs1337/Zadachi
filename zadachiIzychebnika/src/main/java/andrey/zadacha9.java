@@ -3,7 +3,7 @@ package andrey;
 /**
  * Это задача со стр 63(9 номер).
  */
-public class Zadacha9 {
+public class zadacha9 {
     /**
      * Метод main.
      * @param args - аргумент метода main.
