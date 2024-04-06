@@ -1,6 +1,8 @@
 package andrey.glava2;
 
-import java.sql.SQLOutput;
+//import java.sql.SQLOutput;
+
+import java.io.IOException;
 
 /**
  * Задача из учебника стр.119.
@@ -9,10 +11,10 @@ public class Help2 {
     /**
      * Метод main.
      * @param args - аргумент метода main.
-     * @throws java.io.IOException - указанна из-за того, что применяется "System,in.read ()".
+     * @throws IOException - указанна из-за того, что применяется "System,in.read ()".
      */
     public static void main(String[] args)
-            throws java.io.IOException {
+            throws IOException {
         char choice;
         System.out.println("Справка по:");
         System.out.println(" 1. if");
@@ -55,6 +57,9 @@ public class Help2 {
                 System.out.println("  оператор;");
                 System.out.println("} while (условие)");
                 break;
+
+            default:
+                throw new IllegalStateException("Unexpected value: " + choice);  // вот это я вообще не понял к чему, но он просил поставить это здесь.
         }
     }
 }
