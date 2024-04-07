@@ -56,6 +56,8 @@ public class Help22 {
                 System.out.println("} while (условие)");
                 System.out.println("} while (условие)");
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + choice);
         }
     }
 }
